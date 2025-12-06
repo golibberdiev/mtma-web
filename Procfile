@@ -1,1 +1,1 @@
-web: gunicorn mtma_web.wsgi --log-file -
+web: gunicorn mtma_web.wsgi --bind 0.0.0.0:$PORT --log-file -
