@@ -1,0 +1,1 @@
+web: gunicorn mtma_web.wsgi --log-file -
